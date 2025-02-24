@@ -1,6 +1,6 @@
 # Simple Node Crud App
 
-A simple Node Crud app using **Express.js** and **MongoDB**. This application allows you to add, update, delete, and view users, along with uploading images.
+A simple Node Crud app using **Node.js** and **MongoDB**. This application allows you to add, update, delete, and view users, along with uploading images.
 
 ## 🚀 Features
 
