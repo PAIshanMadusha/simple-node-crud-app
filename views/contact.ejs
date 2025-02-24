@@ -1,0 +1,61 @@
+<%- include('layout/header')%>
+
+    <!-- Contact Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card shadow p-4">
+                    <h2 class="text-center">Contact Me</h2>
+                    <p class="text-center">Feel free to reach out via email or follow me on my social media accounts.
+                    </p>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://github.com/PAIshanMadusha" target="_blank" class="text-dark">
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" class="me-2">
+                                GitHub
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://medium.com/@ishanmadusha" target="_blank" class="text-dark">
+                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" width="20"
+                                    class="me-2"> Medium
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.instagram.com/ishan_madusha_" target="_blank" class="text-dark">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="20"
+                                    class="me-2"> Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <p class="text-center">If you have any questions, feel free to contact us.</p>
+
+        <form action="/contact" method="post" class="w-50 mx-auto">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+
+        <div class="text-center mt-3 mb-4">
+            <a href="/" class="btn btn-secondary">Go Back Home</a>
+        </div>
+    </div>
+
+    <%- include('layout/footer')%>
